@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    text-decoration: none;
+    list-style: none;
+    font-family: "Albert Sans", sans-serif;
+}
+
+a {
+    list-style: none !important;
+    text-decoration: none !important;
+}
+
+.carousel-text {
+    font-size: 65px;
+    line-height: 40px;
+}
+
+.btn-header {
+    border: none;
+    background-color: none;
+    font-size: 20px;
+}
+
+button {
+    background: none;
+}
+
+ul {
+    user-select: none;
+}
+
+.navbar-brand {
+    user-select: none;
+}
+
+.btn-header i {
+    font-weight: bolder !important;
+}
+
+.cart-btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+}
+
+.user-btn {
+    border: none;
+    background: none;
+    font-size: 25px;
+}
+
+.Shop-colle-btn {
+    padding: 14px 38px;
+    color: white;
+    background-color: #b99f4a;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.flat-title.style-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flat-title.style-line .line-title {
+    flex-grow: 1;
+    display: block;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.299);
+}
+
+.padding-sec {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.bg-color {
+    background-color: #fff !important;
+    color: black !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: .3s all ease-in-out;
+    overflow: hidden;
+}
+
+.bg-color:hover {
+    background-color: #d5b343d6 !important;
+    border: none !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.product-image {
+    overflow: hidden;
+}
+
+.product-image img {
+    transition: 1s all linear;
+}
+
+.product-wrapper:hover .product-img img {
+    transform: scale(1.1);
+}
+
+.bg-cart {
+    background-image: url('../images/bg-cart.jpg');
+    width: 100%;
+    height: 300px;
+    background-position: center;
+}
+
+.cart-title {
+    padding-block-start: 120px;
+}
+
+.bread-cart li a {
+    list-style: none !important;
+    color: grey;
+}
+
+.bread-cart .active {
+    color: black !important;
+}
+
+.height-60 {
+    height: 60px;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.x-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.item-bg {
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+.box-shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.bg-unique {
+    background-color: #f9f9f9;
+}
+
+.btn-shop {
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 17px;
+    transition: .2s all ease-in-out;
+}
+
+.btn-shop:hover {
+    background-color: black;
+    outline: none !important;
+    color: white;
+}
+
+.product-wrapper {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: 1px solid #ffffff;
+    overflow: hidden;
+    transition: 0.3s all linear;
+}
+
+.product-wrapper:hover {
+    border: 1px solid #b99f4a;
+}
+
+.product-wrapper .product-img img {
+    transition: 0.3s all linear;
+    overflow: hidden;
+}
+
+.close-btn {
+    width: 40px;
+    height: 40px;
+    background-color: #b99f4a;
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: rgba(52, 168, 83, 0.2);
+    color: #b99f4a;
+    border: none;
+    border-radius: 4px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.add-btn:hover {
+    background-color: #34a853;
+    color: white;
+}
+
+.clear-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.clear-btn:hover {
+    background-color: #000;
+    color: white;
+    border: none !important;
+}
+
+.logo-text {
+    user-select: none;
+}

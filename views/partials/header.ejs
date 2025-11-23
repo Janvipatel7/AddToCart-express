@@ -1,0 +1,86 @@
+<header class="position-sticky top-0 bg-white shadow z-2">
+    <div class="header-center-section p-3 d-none d-md-block">
+        <div class="container">
+            <div class="head-center d-flex align-items-center justify-content-evenly">
+
+                <div class="logo" onclick="window.location='/'">
+                    <h2 class="logo-text">Eluxia</h2>
+                </div>
+
+                <div class="menu-list">
+                    <ul class="d-flex align-items-center justify-content-center gap-3 m-0 fs-5">
+                        <li onclick="window.location='/'">Home</li>
+                        <li>Shop</li>
+                        <li>Pages</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+
+                <div class="cart-items d-flex align-items-center gap-3">
+                    <div class="user">
+                        <button class="user-btn"><i class="bi bi-person"></i></button>
+                    </div>
+                    <div class="cart">
+                        <button type="button" class="cart-btn position-relative" onclick="window.location='/cart'">
+                            <i class="bi bi-cart"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                id="counter"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="responsive-header p-3 d-md-none d-flex justify-content-between align-items-center shadow-sm">
+            <div class="logo" onclick="window.location='/'">
+                <h2>Eluxia</h2>
+            </div>
+
+            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                <svg width="20" height="14" viewBox="0 0 20 14" fill="none">
+                    <rect width="20" height="2" fill="#1D1D1D"></rect>
+                    <rect y="6" width="20" height="2" fill="#1D1D1D"></rect>
+                    <rect y="12" width="20" height="2" fill="#1D1D1D"></rect>
+                </svg>
+            </button>
+        </div>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+            <div class="offcanvas-header d-flex align-items-center justify-content-between">
+                <h5 class="offcanvas-title fw-semibold">MENU</h5>
+
+                <div class="d-flex align-items-center gap-3">
+                    <div class="cart close-btn rounded-circle d-flex align-items-center justify-content-center">
+                        <button type="button" class="cart-btn position-relative" onclick="window.location='/cart'">
+                            <i class="bi bi-cart"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                                id="counter2"></span>
+                        </button>
+                    </div>
+
+                    <div class="close-btn rounded-circle d-flex align-items-center justify-content-center"
+                        data-bs-dismiss="offcanvas">
+                        <i class="bi bi-x fs-4 text-white"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="list-unstyled d-flex flex-column gap-3 fs-5">
+                    <li onclick="window.location='/'">Home</li>
+                    <li>Shop</li>
+                    <li>Pages</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
